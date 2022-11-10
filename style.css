@@ -7,7 +7,7 @@ body {
     background-color: green;
 }
 
-h1{
+h1 {
     color: goldenrod
 }
 
@@ -23,4 +23,5 @@ button {
     border-radius: 2px;
     padding: 0.3rem;
     font-weight: bold;
+
 }
