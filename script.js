@@ -11,7 +11,7 @@ let cardsEl = document.getElementById("cards-el")
 
 function getRandomCard() { 
 
-    let randomNumber = Math.floor( Math.random() * 13) + 1 //1-13
+    let randomNumber = Math.floor( Math.random() * 13) + 1 // Value 1-13
     if (randomNumber > 10) {
         return 10 
     } else if (randomNumber === 1) {
@@ -25,8 +25,10 @@ function startGame() {
     isAlive = true 
     let firstCard = getRandomCard()
     let secondCard = getRandomCard()
+    // Generate two ranom numbers
     cards = [firstCard, secondCard]
     sum = firstCard + secondCard
+    // Re-assign the cards and sum variable so that the game can start
     renderGame()
 }
 
